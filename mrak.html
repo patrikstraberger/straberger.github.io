@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrik Štráberger | Domovská stránka</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', sans-serif; 
+            line-height: 1.6; 
+            max-width: 600px; 
+            margin: 100px auto; 
+            padding: 20px; 
+            text-align: center;
+            background: linear-gradient(to bottom, #a1c4fd 0%, #c2e9fb 100%); /* Přechod jako nebe */
+            min-height: 100vh;
+        }
+        .main-card {
+            background: white;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-card">
+        <h1>Ahoj, já jsem Patrik!</h1>
+        <p>Vítej na mém webu. Jsem kreativní člověk a miluji přírodu.</p>
+        <p>Chceš vědět, co je moje největší vášeň? Podívej se na moji speciální stránku o mracích!</p>
+        
+        <a href="mraky.html" class="btn">Vstoupit do světa mraků ☁️</a>
+    </div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrik Štráberger | Svět mraků</title>
+    <style>
+        /* (Styl zůstává stejný jako minule, jen přidáme tlačítko zpět) */
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 40px 20px; text-align: center; background-color: #f0f8ff; color: #333; }
+        header { background: white; padding: 30px; border-radius: 50px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 30px; }
+        .cloud-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 30px 0; text-align: left; }
+        .cloud-card { background: white; padding: 20px; border-radius: 15px; border-left: 5px solid #3498db; }
+        .back-link { display: inline-block; margin-bottom: 20px; color: #3498db; text-decoration: none; font-weight: bold; }
+        a { color: #3498db; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link">← Zpět na úvodní stránku</a>
+
+    <header>
+        <h1>Moje vášeň: Mraky</h1>
+        <p>Tady najdeš vše o tom, proč mě fascinuje sledovat oblohu.</p>
+    </header>
+
+    <div class="cloud-list">
+        <div class="cloud-card">
+            <h3>Cumulus</h3>
+            <a href="https://cs.wikipedia.org/wiki/Cumulus" target="_blank">Detail →</a>
+        </div>
+        <div class="cloud-card">
+            <h3>Cirrus</h3>
+            <a href="https://cs.wikipedia.org/wiki/Cirrus" target="_blank">Detail →</a>
+        </div>
+        <div class="cloud-card">
+            <h3>Cumulonimbus</h3>
+            <a href="https://cs.wikipedia.org/wiki/Cumulonimbus" target="_blank">Detail →</a>
+        </div>
+    </div>
+
+</body>
+</html>

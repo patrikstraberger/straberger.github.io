@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Moje Pozorování Mraků</title>
+</head>
+<body style="background-color: #e0f7fa; font-family: sans-serif; text-align: center;">
+
+    <h1>☁️ Atlas mých mraků</h1>
+    <p>Vítejte na mé stránce věnované pozorování oblohy.</p>
+
+    <hr>
+
+    <h3>Seznam mých úlovků:</h3>
+    <ul>
+        <li>
+            <a href="kumulus.html">Kumulus (Kupovitý mrak)</a> - Pozorováno včera na zahradě.
+        </li>
+    </ul>
+
+</body>
+</html>
